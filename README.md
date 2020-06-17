@@ -1,11 +1,11 @@
 
 # AutoComplete Backend API
-
 An API Service to display the top 25 most frequent words used by Shakespeare based on searched fragment
-Created using Shakespeare-Complete.txt 
 
 ## Running in Web Browser
-To run the API in your web browser, change the term after ?=, and hit enter [Heroku](https://golang-autocomplete.herokuapp.com/autocomplete?term=th)
+To run the API in your web browser, change the term after ?=, and hit enter [Run Online](https://golang-autocomplete.herokuapp.com/autocomplete?term=th)
+![Web Example](https://github.com/sriv97/Golang_AutoComplete/blob/master/images/web.png)
+
 
 ## Running by curl in Terminal / Command Prompt
 Copy and Paste the command below into a terminal / command prompt window
@@ -24,7 +24,10 @@ In the Query Params, enter in the desired fragment as the value for term, then c
 
 ![Postman Example](https://github.com/sriv97/Golang_AutoComplete/blob/master/images/postman.png)
 
-
-
 ## View sample data
 Phrases (th, fr, pi, sh, wu, ar, il, ne, se, pl) [Sample Fragments](https://github.com/sriv97/Golang_AutoComplete/blob/master/results.md)
+
+
+### References used
+[Guide to setting up Golang on Heroku] (https://github.com/heroku/go-getting-started)
+[Original Text](https://github.com/sriv97/Golang_AutoComplete/blob/master/shakespeare-complete.txt)
