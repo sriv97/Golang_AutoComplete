@@ -1,1 +1,1 @@
-web: bin/golang-autocomplete
+web: bin/go-getting-started
