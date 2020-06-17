@@ -1,12 +1,11 @@
 {
-  "name": "Start on Heroku: Go",
-  "description": "Go Getting Started Example App",
+  "name": "Golang AutoComplete API: Based on Shakespeare Text",
+  "description": "Returns top 25 words used by Shakespeare based on fragment",
   "keywords": [
-    "getting-started",
+    "autocomplete",
     "go",
-    "sample",
-    "example"
+    "shakespeare"
   ],
-  "website": "http://github.com/heroku/go-getting-started",
-  "repository": "http://github.com/heroku/go-getting-started"
+  "website": "https://golang-autocomplete.herokuapp.com",
+  "repository": "https://github.com/sriv97/Golang_AutoComplete"
 }
