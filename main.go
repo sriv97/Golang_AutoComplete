@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -47,8 +46,8 @@ func process(filepath string) map[string]int {
 		}
 	}
 
-	fmt.Println(m)
-	fmt.Println(len(m))
+	// fmt.Println(m) ()
+	// fmt.Println(len(m))
 
 	return m
 }
