@@ -7,7 +7,8 @@ Created using Shakespeare-Complete.txt
 To run the API in your web browser [Click on the click, and change the term?= to chars you would like](https://golang-autocomplete.herokuapp.com/autocomplete?term=th)
 
 ## Results for Top 10 Fragments
-**th**: ```json {[
+**th**: 
+```json {[
 "-the",
 "-they",
 "accordeth",
