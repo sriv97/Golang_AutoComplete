@@ -1,6 +1,8 @@
 
 # AutoComplete Backend API
 An API Service to display the top 25 most frequent words used by Shakespeare based on searched fragment
+_The searched value can exist anywhere in the word, results are returned based on highest frequency_
+
 
 ## Running in Web Browser
 To run the API in your web browser, change the term after ?=, and hit enter [Run Online](https://golang-autocomplete.herokuapp.com/autocomplete?term=th)
