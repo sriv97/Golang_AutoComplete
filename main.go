@@ -78,8 +78,6 @@ func autocomplete(source map[string]int, term string, top int) []string {
 		}
 	}
 
-	sort.Strings(ret)
-
 	if len(ret) < top {
 		return ret[:len(ret)]
 	} else {
